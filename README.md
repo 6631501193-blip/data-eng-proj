@@ -1,4 +1,4 @@
-# Data Source & Ingestion Engineer – Starter Project
+
 
 This project generates fake e-commerce transactions and streams them to Apache Kafka using Python.
 
@@ -12,11 +12,13 @@ This project generates fake e-commerce transactions and streams them to Apache K
    ```bash
    pip install -r requirements.txt
    ```
-4.   ```bash
+
+4.turn on whole data pipe line
+   ```bash
    docker-compose up -d
    ```
-4. Run the producer:
-   ```bash
+5. Run the producer:
+   ``` bash
    python producer.py
    ```
 
