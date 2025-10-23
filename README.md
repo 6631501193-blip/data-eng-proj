@@ -2,7 +2,7 @@
 
 This project generates fake e-commerce transactions and streams them to Apache Kafka using Python.
 
-## 🧩 Setup
+## Setup
 1. Install Docker & Python 3.9+
 2. Start Kafka using Docker Compose:
    ```bash
@@ -12,14 +12,16 @@ This project generates fake e-commerce transactions and streams them to Apache K
    ```bash
    pip install -r requirements.txt
    ```
+4.   ```bash
+   docker-compose up -d
+   ```
 4. Run the producer:
    ```bash
    python producer.py
    ```
 
-## 🧠 Generate Static Dataset
+## enerate Static Dataset
 ```bash
 python generate_dataset.py
 ```
 
-This will create a file named `historical_transactions.csv` containing 100k records.
